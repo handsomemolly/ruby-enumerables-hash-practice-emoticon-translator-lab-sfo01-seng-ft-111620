@@ -8,8 +8,6 @@ def load_library(path)
   YAML.load_file(path).each do |key, value|
     final_hash[key] = {}
   end  
-  
-  
   final_hash
 end
 
